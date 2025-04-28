@@ -5,6 +5,7 @@
             body{
                 background-image: url('https://i.pinimg.com/originals/d2/e4/33/d2e433a119194661db9909a4162bcd36.gif');
                 background-size: cover;
+                
                 background-repeat: no-repeat;
                 font-size: larger;
             }
@@ -12,68 +13,59 @@
                 border-radius: 100%;
                 opacity: 100%;
                 border: 5px solid #555;
-                position: fixed;
-                left: 88%;
+                height: 300px;
+                
                 
             }
-            h1{
+            #Hero h1{
                 font-size: 300%;
                 background-color: bisque;
-                align-items: center;
-                position: fixed;
-                top: 30%;
-                left: 75.5%;
+                
+                
             }
-            h3{
+            #Hero h3{
+                border-radius: 1%;
+                padding-left: 2%;
                 background-color: bisque;
-                align-items: center;
-                position: fixed;
-                top: 40%;
-                left: 83.5%;
+                
+                
+            }
+            #Skills{
+                padding-right: 1%;
+                background-color: aliceblue;
+                opacity: 75%;
+            }
+            #Projects{
+                background-color: aliceblue;
+                opacity: 75%;
             }
             body{
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-            p{
+            #Abtme{
                 background-color: aliceblue;
-                position: fixed;
-                top: 50%;
-                left: 50%;
+                padding: 1%;
                 font-size-adjust: 0.55;
-            }
-            marquee{
-                direction: left;
-                behavior: alternate;
-                border-color: black;
-                border-width: 2px;
-                border-style: solid;
-                size: 10px;
-                position: fixed;
-                top: 70%;
-                left: 50%;
-            }
-            iframe{
-                width: 515px;
-                height: 320px;
-                position: fixed;
-                top: 57%;
-                left: 3%;
+                opacity: 75%;
             }
             footer{
+                background-color: aliceblue;
+                text-align: center;
                 color: black;
             }
         </style>
         <title>Armaan Mulani</title>
     </head>
     <body>
-        <img src="/Me.jpg" height="215" width="170" >
+        <img src="/Me.jpg" >
         <section id="Hero">
             <h1 style = "color: firebrick; "> Armaan Mulani</h1>
             <h3>BTech CSE Student at<br> ITM Skills University</h3>
         </section>
         
         <section id="Abtme">
+            <h2>About Me:-</h2>
             <p style="color: black;">I am a passionate and driven <b>Computer Science Engineering</b> student with a strong foundation in <i>Python</i> 
                 <br>programming and backend development. 
                 <br>With over three years of hands-on coding experience, I've worked on multiple team-based projects, 
@@ -87,7 +79,44 @@
                 <br>aiming to gain real-world experience and contribute meaningfully to impactful tech solutions.
             </p>
         </section>
-        <iframe src="https://www.youtube.com/embed/N4R9C3UukIE?si=2_5dLQlin5Uy8CX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <footer>Contact Me:<a href="www.linkedin.com/in/armaan-mulani-421bb9307"></a> Linkedin</footer>
+        <section id="Skills">
+            <h1>My Skills</h1>
+            <ul>
+                <li><h3>Programming Languages:</h3>
+                    <ul>
+                        <li>Proficient in Python with 3+ years of experience, comfortable in writing clean, efficient, and maintainable code.</li>
+                        <li>Solid understanding of C++ & JAVA, especially for Data Structures and Algorithms (DSA).</li>
+                    </ul>
+                </li>
+                <li><h3>Web Development:</h3>
+                    <ul>
+                        <li>Good grasp of HTML, CSS, and Flexbox layouts.</li>
+                        <li>Practical knowledge of responsive web design principles using media queries.</li>
+                        <li>Experience with backend development fundamentals using Python.</li>
+                    </ul>
+                </li>
+                <li><h3>Tools & Technologies:</h3>
+                    <ul>
+                        <li>Skilled with Microsoft Office Suite (Excel, Word, PowerPoint) for documentation and data handling.</li>
+                        <li>Familiar with Git and GitHub for version control and collaborative development.</li>
+                        <li>Basic experience in working with APIs and understanding data integration concepts.</li>
+                    </ul>
+                </li>
+                <li><h3>Creative Tools:</h3>
+                    <ul>
+                        <li>Beginner-level proficiency in Blender, with experience in creative projects like character cloning and 3D visualization.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>  
+        <section id="Projects">
+            <h2>My Projects:-</h2>
+            <h3>To visit my Github Profile:<a href="https://github.com/ArmaanM08"> ArmaanM08@github</a></h3>
+        </section>        
     </body>
+    <footer>
+        <p>Contact Me:
+            <a href="www.linkedin.com/in/armaan-mulani-421bb9307">Linkedin</a>
+        </p>
+    </footer>
 </html>
