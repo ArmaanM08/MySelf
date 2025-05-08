@@ -65,4 +65,5 @@ footer{
 .dark-theme #Hero h1,
 .dark-theme #Hero h3 {
     background-color: #2a2a2a;
+    color: white;
 }
