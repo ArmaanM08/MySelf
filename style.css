@@ -1,0 +1,68 @@
+body{
+  background-image: url('https://i.pinimg.com/originals/d2/e4/33/d2e433a119194661db9909a4162bcd36.gif');
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  font-size: larger;
+}
+img{
+  border-radius: 100%;
+  opacity: 100%;
+  border: 5px solid #555;
+  height: 300px;
+  
+  
+}
+#Hero h1{
+  font-size: 300%;
+  background-color: bisque;
+  
+  
+}
+#Hero h3{
+  border-radius: 1%;
+  padding-left: 2%;
+  background-color: bisque;
+  
+  
+}
+#Skills{
+  padding-right: 1%;
+  background-color: aliceblue;
+  opacity: 75%;
+}
+#Projects{
+  background-color: aliceblue;
+  opacity: 75%;
+}
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Abtme{
+  background-color: aliceblue;
+  padding: 1%;
+  font-size-adjust: 0.55;
+  opacity: 75%;
+}
+footer{
+  background-color: aliceblue;
+  text-align: center;
+  color: black;
+}
+
+.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+.dark-theme #Abtme,
+.dark-theme #Skills,
+.dark-theme #Projects,
+.dark-theme footer {
+    background-color: #1e1e1e;
+    color: white;
+}
+.dark-theme #Hero h1,
+.dark-theme #Hero h3 {
+    background-color: #2a2a2a;
+}
